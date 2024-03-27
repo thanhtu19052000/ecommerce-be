@@ -1,0 +1,29 @@
+{
+  "name": "ecommere",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanhtu19052000/ecommerce-be.git"
+  },
+  "author": "tudt1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanhtu19052000/ecommerce-be/issues"
+  },
+  "homepage": "https://github.com/thanhtu19052000/ecommerce-be#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
